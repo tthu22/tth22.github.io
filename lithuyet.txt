@@ -1,0 +1,41 @@
+-------------JAVA SCRIPT---------------
+API : application program iterface
+-- document.GetElementByClassName('')--> 1 html collection có chứa các phần tử có clas name đó muốn lấy ra 1 phần tử thì cần lấy phần tử thứ 0 của getlêmnt by id
+vd: document.GetElementByClassName('')[0];
+--gêtlementbytagname ->html collection
+
+--quyery selecter-->trả về 1 element document.queryselecter('.clas' ||'#id');
+--- quyery selecterAll trả về nodeList
+Z-index chỉ hoạt động khi đi kèm với thuộc tính position 
+
+-- filter trả về mảng mới là con của mảng cũ 
+--- find trả về phần tử đầu tiên thỏa mãn điều kiện 
+
+--- hosting : khi mà chương trình chyạ thì phần khai báo biến sẽ được đưa lên đầu của chương trình 
+----ES6  là phiên bản cập nhật của javarscript với 1 số tính năng ưu việt hơn :
+	++ tamplate string(` ${}`): cho phép viết biến vào trong chuỗi và các chuỗi có thể xuống dòng ;
+	++destructering : giúp phân dã một mảng các chuỗi thành những biến nhỏ hơn ;
+	++Spread(...tên): giúp bỏ đi cặp ngoặc trong mảng và object;--> copy 1 mảng sang 1 mảng  khác , nối 2 mảng hoặc hợp nhất 2 object 
+-- contenaditable thuộc tính của html để cho thể thẻ htm có thể nhập vào edt giống input lun
+
+-------------------RESPONSIVE--------------------------------
+viewport: là khung nhìn 
+initial-scalce: độ zoom khi truy cập website= 1 là tỷ lệ đúng của nó 
+minimum-scalce: độ thu nhỏ nhất cho phép người dùng thu nhỏ = 2 ngón tay
+
+MEDIAQurery: là một chuỗi truy vấn giúp coder lựa chọn được kích thước màn hình phù hợp 
+-- keywords: not. only , and, or
+-- mediatypes: những trường hợp bạn muốn sửa dụng css(print :css cho chế độ in . screen màn hình , speech : màn hình nói được , all-defaul là tất cả)
+- međia feature : là những đặng điểm mà bạn muốn sử dụng để css
+cú pháp @media only|and|or|not screen(@mediafeature and|or|not|only @mediafeature) ; // phần trong ngoặc có thể có hoặc không 
+BreakPointS: những điểm , vị trí mà bố cụ website sẽ thay đổi tương thích để tạo nên giao diện Responsive
+- thường thì sẽ chia 3 điểm breake points: mobile width <740 px (@media only  screen and (max-width:739px))
+: tablet: width>740 and width<1024px(@media only  screen and (min-width:740px) and (max-width:1024px)) 
+:pc:width>1024px @media only screen and min-width 1024px
+
+
+---------Boostrap-------
+"pt-(>1 &&<=5)"padding top;
+"bg-dark": nền đen
+"text-white": chữ trắng 
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <h2>Hồ sơ đăng kí</h2>
+    <table>
+        <tr>
+        <th class="header">Thông Tin đăng nhập </th>
+        <th class="header">hồ sơ khách hàng </th>
+        </tr>
+        <tr>
+          <td>
+            <label class="label">Tên đăng nhập</label>
+            <input type="text" class="input" />
+          </td>
+          <td rowspan="12">
+            <ul>
+                <li>
+                    <label class="label">Họ tên khách hàng</label>
+                    <label class="label" id="resten"></label>
+                </li>
+                <li><label class="label">Tên đăng nhập:</label>
+                    <label class="label" id="restendn"></label>
+                </li>
+                <li><label class="label">Mật khẩu:</label>
+                    <label class="label"id="resmk"></label>
+                </li>
+
+                <li><label class="label">Ngày sinh:</label>
+                    <label class="label" id="resngaysinh"></label>
+                </li>
+                <li><label class="label">Giới tính:</label>
+                    <label class="label" id="resgt"></label>
+                </li>
+                <li><label class="label">Email:</label>
+                    <label class="label" id="resEmail"></label>
+                </li>
+                <label class="label">Địa chỉ:</label>
+                <label class="label" id="resdiachi"></label>
+                </li>
+                <li><label class="label">Điện thoại:</label>
+                    <label class="label" id="resdt"></label>
+                </li>
+                
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label class="label">Mật khẩu</label>
+            <input type="password" class="input"/>
+          </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="label">Mhập lại Mật khẩu</label>
+                <input type="password" class="input"/>
+            </td>
+        </tr>
+        <tr>
+            <th class="header">Thông tin cá nhân</th>
+        </tr>
+        <tr>
+            <td>
+                <label class="label">Họ tên khách hàng</label>
+                <input type="text" class="input" id="inputTen"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="label">Ngày sinh</label>
+                <input type="date" class="input" id="inputngay"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="label">Email</label>
+                <input type="text" class="input"/>
+            </td>
+        </tr>
+        <tr>
+            <td >
+                <label class="label">Giới tính</label>
+                  <input type="radio" id="radnam" name="gioitinh"  value="nam">
+                   <label for="radnam" class="radlabel">Nam</label>
+                   <input type="radio" id="radnu" name="gioitinh"  value="nữ">
+                    <label for="radnu" class="radlabel" >Nữ</label>
+                  
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="label">Địa chỉ</label>
+                <input type="textarea" class="input"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="label">Điện thoại</label>
+                <input type="text" class="input"/>
+            </td>
+        </tr>
+        <tr>
+            <td class="button"><button onclick="btnDangKiClick()">Đăng kí</button></td>
+        </tr>
+        
+      </table>
+    <script type="text/javascript" src="./Script.js"></script>
+</body>
+</html>
